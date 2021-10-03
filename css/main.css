@@ -1,0 +1,11 @@
+/* JNM CONSULTING LLC 2021
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  /* background: url("images/background.jpg"); */
+  background: linear-gradient(gray, #383838, gray);
+  background-position: center;
+  background-attachment: fixed;
+}
