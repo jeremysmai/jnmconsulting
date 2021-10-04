@@ -5,7 +5,7 @@
 
 html {
   /* background: url("images/background.jpg"); */
-  background: linear-gradient(#2F4F4F, #00FF7F, #2F4F4F);
+  background: linear-gradient(#CD853F, #00FF7F, #4B0082);
   background-position: center;
   background-attachment: fixed;
 }
@@ -31,5 +31,5 @@ footer {
 }
 
 menu {
-  
+
 }
