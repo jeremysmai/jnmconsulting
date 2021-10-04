@@ -5,7 +5,7 @@
 
 html {
   /* background: url("images/background.jpg"); */
-  background: linear-gradient(gray, #383838, gray);
+  background: linear-gradient(#2F4F4F, #00FF7F, #2F4F4F);
   background-position: center;
   background-attachment: fixed;
 }
@@ -28,4 +28,8 @@ footer {
   width: 100%;
   left: 0;
   bottom: 12px;
+}
+
+menu {
+  
 }
