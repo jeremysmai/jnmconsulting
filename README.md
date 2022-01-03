@@ -9,4 +9,4 @@ Current Website project for JNM Consulting LLC
  - Contact
  - Links to Past and current projects
 
- :atom: version .00: &copy; JNM Consulting LLC 2021
+ :atom: version .00: &copy; JNM Consulting LLC 2022
