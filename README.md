@@ -1,4 +1,5 @@
 # JNM Consulting LLC [Website]
+<img src="images/templogo.png" height="250px" width="250px"/>
 Current Website project for JNM Consulting LLC
 
 [Website Link](https://jnmconsulting.org)
