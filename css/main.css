@@ -222,6 +222,21 @@ footer {
   right: 0;
 }
 
+.notify {
+  font-size: 20px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADFF2F, 0 0 40px #ADFF2F, 0 0 50px #ADFF2F, 0 0 60px #ADFF2F, 0 0 70px #ADFF2F;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #808080, 0 0 40px #808080, 0 0 50px #808080, 0 0 60px #808080, 0 0 70px #808080, 0 0 80px #808080;
+  }
+}
+
 .prints {
   font-family: 'Noto Sans Mono', monospace;
   color: white;
@@ -229,10 +244,15 @@ footer {
   border-radius: 2px;
   border: 1.5px solid black;
   padding: 2px;
-  max-width: 305px;
+  max-width: 350px;
 }
 
 .price {
   font-family: 'Noto Sans Mono', monospace;
   color: black;
+}
+
+.pics3d {
+  max-width: 350px;
+  height: auto;
 }
