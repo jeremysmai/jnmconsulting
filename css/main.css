@@ -35,6 +35,14 @@ html, body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: white;
   margin: auto;
@@ -44,6 +52,14 @@ h1 {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 75px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: white;
   margin: auto;
   text-align: center;
