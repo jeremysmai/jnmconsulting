@@ -11,6 +11,6 @@ Current Website project for JNM Consulting LLC
  - Links to Past and current projects and Contact Buttons
 
 ## Projects :open_file_folder:
-[JNM Secuirty](https://www.jnmsecurity.com)
+[JNM Security](https://www.jnmsecurity.com)
 
 :atom: version .01: &copy; JNM Consulting LLC 2023
