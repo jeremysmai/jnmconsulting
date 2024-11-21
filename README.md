@@ -1,4 +1,4 @@
-# JNM Consulting LLC [Website]
+# JNM Consulting LLC (Website)
 <img src="images/templogo.png" height="250px" width="250px"/>
 Current Website project for JNM Consulting LLC
 
@@ -13,4 +13,4 @@ Current Website project for JNM Consulting LLC
 ## Projects :open_file_folder:
 [JNM Security](https://www.jnmsecurity.com)
 
-:atom: version .01: &copy; JNM Consulting LLC 2023
+:atom: version .01: &copy; JNM Consulting LLC 2024
