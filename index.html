@@ -23,6 +23,14 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+      }
+
 
       .dropdown-item:hover { 
         color:white;
@@ -30,6 +38,7 @@
       }
 
       body {
+        width: 100%;
         background: linear-gradient(-45deg, #DAA520, #DA70D6, #ADFF2F, #808080);
         background-size: 225% 225%;
         animation: gradient 15s ease infinite;
@@ -178,11 +187,15 @@
     </div>
 
 <div class="container">
-  <div class="container text-center py-3"><img src="images/jnmprints-alpha.png" height="350" width="auto">
+  <div class="container text-center py-2"><img src="images/jnmprints-alpha.png" height="350" width="auto">
   </div>
   <div class="container">
-    <header class="d-flex justify-content-center py-3">
-    <nav class="navbar">
+    <header class="d-flex justify-content-center py-5">
+    <nav class="navbar navbar-expand-sm">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarmain">
         <a class="btn btn-outline-secondary mx-1" href="jnmprints.html" role="button"> Shop</a>
         <a class="btn btn-outline-secondary mx-1" href="about.html" role="button"> About</a>
       <a class="btn btn-outline-success mx-1" href="jnmrecycling.html" role="button"><i class="bi bi-recycle"></i> JNM Recycling</a>
@@ -196,6 +209,7 @@
           <li><a class="dropdown-item" href="tel:+14143950181"><i class="bi bi-telephone-forward"></i> Call</a></li>
         </ul>
         </div>
+       </div> 
     </nav>
   </header>
 </div>
@@ -217,12 +231,12 @@
   </section>
   </div>
 </main>
-<footer class="bg-dark text-body-secondary py-5">
+<footer class="footer mt-auto py-5 bg-dark">
   <div class="container">
-    <a href="https://jnmconsulting.org/" class="mb-1" style="text-shadow: 1px 1px #808080;"> &copy; JNM Consulting LLC <script>document.write(/\d{4}/.exec(Date())[0])</script> </a>
-    <p class="mb-0" style="text-shadow: 1px 2px #808080;"> Version 01 </p>
+    <span class="text-body-secondary"><a href="https://jnmconsulting.org/" class="mb-1" style="text-shadow: 1px 1px #808080;"> &copy; JNM Consulting LLC <script>document.write(/\d{4}/.exec(Date())[0])</script> </a>
+    Version 01 </span>
   </div>
 </footer>
-</body>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
