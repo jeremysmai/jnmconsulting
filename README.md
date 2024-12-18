@@ -1,8 +1,10 @@
 # JNM Consulting LLC (Website)
 <img src="images/jnmprints-alpha.png" height="auto" width="250px"/>
-Current Website project for JNM Consulting LLC
+Current Website project by JNM Consulting LLC
 
 [Website Link](https://jnmconsulting.org)
+
+The one stop shop for 3D print and filament recycling ecosystem.
 
 ## TODO :memo:
  - [x] Funnel Users through an experience to narrow down want.
@@ -15,5 +17,8 @@ Current Website project for JNM Consulting LLC
 
 ## Projects :open_file_folder:
 [JNM Security](https://www.jnmsecurity.com)
+
+
+Based out of Wisconsin :cheese:
 
 :atom: version .01: &copy; JNM Consulting LLC 2024
