@@ -3,22 +3,45 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html {
-  /* background: url("images/background.jpg"); */
+/*html {
   background: linear-gradient(#CD853F, #00FF7F, #4B0082);
   background-position: center;
   background-attachment: fixed;
+} */
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
 
-body {
+html, body {
+  width: 100%;
+  height:100%;
+  background: linear-gradient(-45deg, #DAA520, #DA70D6, #ADFF2F, #808080);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: white;
-  padding-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 15px;
+  margin-bottom: 30px;
 }
 
 h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: white;
@@ -29,6 +52,14 @@ h1 {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 75px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: white;
   margin: auto;
   text-align: center;
@@ -84,4 +115,160 @@ footer {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+
+.buttonjnm {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #696969;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 175px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttonjnm span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonjnm span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.buttonjnm:hover span {
+  padding-right: 25px;
+}
+
+.buttonjnm:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button3d {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e17c41;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button3d span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3d span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.button3d:hover span {
+  padding-right: 25px;
+}
+
+.button3d:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonrec {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e141e1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttonrec span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonrec span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.buttonrec:hover span {
+  padding-right: 25px;
+}
+
+.buttonrec:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.notify {
+  font-size: 20px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADFF2F, 0 0 40px #ADFF2F, 0 0 50px #ADFF2F, 0 0 60px #ADFF2F, 0 0 70px #ADFF2F;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #808080, 0 0 40px #808080, 0 0 50px #808080, 0 0 60px #808080, 0 0 70px #808080, 0 0 80px #808080;
+  }
+}
+
+.prints {
+  font-family: 'Noto Sans Mono', monospace;
+  color: white;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1.5px solid black;
+  padding: 2px;
+  max-width: 350px;
+}
+
+.price {
+  font-family: 'Noto Sans Mono', monospace;
+  color: black;
+}
+
+.pics3d {
+  max-width: 350px;
+  height: auto;
 }
