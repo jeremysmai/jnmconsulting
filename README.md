@@ -1,5 +1,5 @@
 # JNM Consulting LLC (Website)
-<img src="images/jnmprints-alpha.png" height="auto" width="250px"/>
+<img src="images/JNMlogo-alpha.PNG" height="auto" width="250px"/>
 
  ### :recycle: The one stop shop for 3D print and filament recycling ecosystem.
 
